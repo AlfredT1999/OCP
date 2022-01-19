@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "OCPLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/OCPLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OCPLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "OCPLibrary/1.0.0": {
+      "type": "project",
+      "path": "../OCPLibrary/OCPLibrary.csproj",
+      "msbuildProject": "../OCPLibrary/OCPLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "OCPLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\e-jatapia\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\e-jatapia\\source\\repos\\Presentation\\OCP\\ConsoleUI\\OCPLibrary\\OCPLibrary.csproj": {
+              "projectPath": "C:\\Users\\e-jatapia\\source\\repos\\Presentation\\OCP\\ConsoleUI\\OCPLibrary\\OCPLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

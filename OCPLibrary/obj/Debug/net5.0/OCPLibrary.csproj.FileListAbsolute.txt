@@ -1,0 +1,16 @@
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\bin\Debug\net5.0\OCPLibrary.exe
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\bin\Debug\net5.0\OCPLibrary.deps.json
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\bin\Debug\net5.0\OCPLibrary.runtimeconfig.json
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\bin\Debug\net5.0\OCPLibrary.runtimeconfig.dev.json
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\bin\Debug\net5.0\OCPLibrary.dll
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\bin\Debug\net5.0\ref\OCPLibrary.dll
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\bin\Debug\net5.0\OCPLibrary.pdb
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\obj\Debug\net5.0\OCPLibrary.csproj.AssemblyReference.cache
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\obj\Debug\net5.0\OCPLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\obj\Debug\net5.0\OCPLibrary.AssemblyInfoInputs.cache
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\obj\Debug\net5.0\OCPLibrary.AssemblyInfo.cs
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\obj\Debug\net5.0\OCPLibrary.csproj.CoreCompileInputs.cache
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\obj\Debug\net5.0\OCPLibrary.dll
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\obj\Debug\net5.0\ref\OCPLibrary.dll
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\obj\Debug\net5.0\OCPLibrary.pdb
+C:\Users\e-jatapia\source\repos\Presentation\OCP\ConsoleUI\OCPLibrary\obj\Debug\net5.0\OCPLibrary.genruntimeconfig.cache
