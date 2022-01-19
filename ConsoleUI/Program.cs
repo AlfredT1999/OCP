@@ -9,9 +9,9 @@ namespace OCPLibrary
         {
             List<ModeloPersona> aplicantes = new List<ModeloPersona>
             {
-                new ModeloPersona { Nombre = "Jose", Apellido = "Tapia", TipoDeEmpleado = TipoEmpleado.Manager},
+                new ModeloPersona { Nombre = "Jose", Apellido = "Tapia"},
                 new ModeloPersona { Nombre = "Luis", Apellido = "Hernandez"},
-                new ModeloPersona { Nombre = "Joe", Apellido = "Lara", TipoDeEmpleado = TipoEmpleado.Director}
+                new ModeloPersona { Nombre = "Joe", Apellido = "Lara"}
             };
 
             List<ModeloEmpleado> empleados = new List<ModeloEmpleado>();
