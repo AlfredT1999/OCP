@@ -6,5 +6,6 @@
         public string Apellido { get; set; }
         public string DireccionEmail { get; set; }
         public bool EsManager { get; set; } = false;
+        public bool EsDirector { get; set; } = false;
     }
 }

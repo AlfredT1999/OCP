@@ -3,6 +3,7 @@
     public enum TipoEmpleado
     {
         General,
-        Manager
+        Manager,
+        Director,
     }
 }
