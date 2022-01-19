@@ -7,11 +7,11 @@ namespace OCPLibrary
     {
         static void Main(string[] args)
         {
-            List<ModeloPersona> aplicantes = new List<ModeloPersona>
+            List<IModeloAplicante> aplicantes = new List<IModeloAplicante>
             {
                 new ModeloPersona { Nombre = "Jose", Apellido = "Tapia"},
-                new ModeloPersona { Nombre = "Luis", Apellido = "Hernandez"},
-                new ModeloPersona { Nombre = "Joe", Apellido = "Lara"}
+                new ModeloManager { Nombre = "Luis", Apellido = "Hernandez"},
+                new ModeloDirector { Nombre = "Joe", Apellido = "Lara"}
             };
 
             List<ModeloEmpleado> empleados = new List<ModeloEmpleado>();
