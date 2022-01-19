@@ -25,7 +25,8 @@ namespace OCPLibrary
 
             foreach (var emp in empleados)
             {
-                Console.WriteLine($"{emp.Nombre} {emp.Apellido}: {emp.DireccionEmail}");
+                Console.WriteLine($"{emp.Nombre} {emp.Apellido}: {emp.DireccionEmail}," +
+                    $" is manager: {emp.IsManager}");
             }
 
             Console.ReadLine();
