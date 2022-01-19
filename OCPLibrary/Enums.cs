@@ -1,8 +1,8 @@
 ﻿namespace OCPLibrary
 {
-    public enum EmployeeType
+    public enum TipoEmpleado
     {
-        Staff,
+        General,
         Manager
     }
 }
