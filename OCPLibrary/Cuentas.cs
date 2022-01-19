@@ -1,8 +1,8 @@
 ﻿namespace OCPLibrary
 {
-    public class Cuentas
+    public class Cuentas : ICuentas
     {
-        public ModeloEmpleado Crear(ModeloPersona persona)
+        public ModeloEmpleado Crear(IModeloAplicante persona)
         {
             ModeloEmpleado resultado = new ModeloEmpleado();
 

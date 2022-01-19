@@ -16,11 +16,9 @@ namespace OCPLibrary
 
             List<ModeloEmpleado> empleados = new List<ModeloEmpleado>();
 
-            Cuentas procesoCuenta = new Cuentas();
-
             foreach (var persona in aplicantes)
             {
-                empleados.Add(procesoCuenta.Crear(persona));
+                empleados.Add(persona.ProcesoCuenta.Crear(persona));
             }
 
             foreach (var emp in empleados)
