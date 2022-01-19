@@ -11,7 +11,7 @@ namespace OCPLibrary
             {
                 new ModeloPersona { Nombre = "Jose", Apellido = "Tapia", TipoDeEmpleado = TipoEmpleado.Manager},
                 new ModeloPersona { Nombre = "Luis", Apellido = "Hernandez"},
-                new ModeloPersona { Nombre = "Joe", Apellido = "Lara"}
+                new ModeloPersona { Nombre = "Joe", Apellido = "Lara", TipoDeEmpleado = TipoEmpleado.Director}
             };
 
             List<ModeloEmpleado> empleados = new List<ModeloEmpleado>();
@@ -26,7 +26,7 @@ namespace OCPLibrary
             foreach (var emp in empleados)
             {
                 Console.WriteLine($"{emp.Nombre} {emp.Apellido}: {emp.DireccionEmail}," +
-                    $" is manager: {emp.EsManager}, es director: {emp.EsDirector}");
+                    $" es manager: {emp.EsManager}, es director: {emp.EsDirector}");
             }
 
             Console.ReadLine();

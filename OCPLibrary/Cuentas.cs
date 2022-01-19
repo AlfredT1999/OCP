@@ -10,10 +10,24 @@
             resultado.Apellido = persona.Apellido;
             resultado.DireccionEmail = $"{persona.Nombre.Substring(0, 1)}{persona.Apellido}@acme.com";
 
-            // Lo siguiente viola la regla OCP:
-            if(persona.TipoDeEmpleado == TipoEmpleado.Manager)
+            //// Lo siguiente viola la regla OCP:
+            //if(persona.TipoDeEmpleado == TipoEmpleado.Manager)
+            //{
+            //    resultado.EsManager = true;
+            //}
+            switch (persona.TipoDeEmpleado)
             {
-                resultado.EsManager = true;
+                case TipoEmpleado.General:
+                    break;
+                case TipoEmpleado.Manager:
+                    resultado.EsManager = true;
+                    break;
+                case TipoEmpleado.Director:
+                    resultado.EsManager = true;
+                    resultado.EsDirector = true;
+                    break;
+                default:
+                    break;
             }
 
             return resultado;
